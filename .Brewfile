@@ -3,7 +3,7 @@ brew "git", link: true, conflicts_with: ["git"] # Maybe?
 
 tap "tedious-tools/formulae"
 tap "homebrew/cask"
-tap "cask-fonts"
+tap "homebrew/cask-fonts"
 
 # Command-line tools
 brew "asdf"
