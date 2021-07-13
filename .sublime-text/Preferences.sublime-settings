@@ -1,0 +1,71 @@
+{
+  "auto_complete_commit_on_tab": true,
+  "auto_complete_triggers":
+  [
+    {
+      "characters": "<",
+      "selector": "text.html",
+    },
+    {
+      "characters": ".",
+      "selector": "source.go",
+    }
+  ],
+  "binary_file_patterns":
+  [
+    "*.dds",
+    "*.eot",
+    "*.gif",
+    "*.ico",
+    "*.jar",
+    "*.jpeg",
+    "*.jpg",
+    "*.pdf",
+    "*.png",
+    "*.swf",
+    "*.tga",
+    "*.ttf",
+    "*.zip",
+    ".yardoc/**"
+  ],
+  "caret_extra_top": 1,
+  "caret_extra_bottom": 1,
+  "caret_style": "blink",
+  "color_scheme": "Packages/Agila Theme/Agila Oceanic Next.tmTheme",
+  "detect_indentation": false,
+  "ensure_newline_at_eof_on_save": true,
+  "ensure_single_trailing_newline": true,
+  "folder_exclude_patterns":
+  [
+    "bin",
+    "tmp",
+    ".git",
+    "dist",
+    "doc",
+    "deps",
+    "_build",
+    "cover",
+    "node_modules"
+  ],
+  "font_face": "Fira Code Medium",
+  "font_options":
+  [
+    "subpixel_antialias"
+  ],
+  "font_size": 12,
+  "hot_exit": false,
+  "ignore_whitespace_on_current_line": true,
+  "ignore_whitespace_only_lines": false,
+  "inactive_sheet_dimming": false,
+  "remember_open_files": false,
+  "remove_trailing_whitespace_on_save": true,
+  "rulers":
+  [
+    80,
+    120
+  ],
+  "shell_environment": "/usr/local/bin/zsh",
+  "tab_size": 2,
+  "theme": "Default.sublime-theme",
+  "translate_tabs_to_spaces": true,
+}
