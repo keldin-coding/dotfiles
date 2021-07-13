@@ -37,3 +37,8 @@ if [ ! -d "$HOME/.oh-my-zsh" ]; then
   echo "Installing oh-my-zsh"
   sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 fi
+
+if [ -f "$HOME/.asdfler.yml" ]; then
+  echo "Setting up asdf plugins"
+  asdfler install -p "$HOME/.asdfler.yml"
+fi

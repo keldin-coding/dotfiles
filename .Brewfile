@@ -25,14 +25,18 @@ cask "anylist"
 # then go back to v5
 # cask "calibre"
 cask "discord"
-cask "element"
+# I do not want to deal with fixing the encryption keys and getting the backups
+# and whatnot to work. It might be painless but...meh. We test this on a new machine.
+# cask "element"
 cask "insomnia"
-cask "iterm2"
+# Want to ensure I get the settings I need
+# cask "iterm2"
 cask "mudlet"
 cask "private-internet-access"
 cask "raspberry-pi-imager"
 cask "signal"
-cask "slack"
+# I need to consolidate my Slack accounts before I do this
+# cask "slack"
 cask "sublime-merge"
 cask "sublime-text"
 cask "the-unarchiver"
@@ -40,7 +44,7 @@ cask "zoom"
 
 # Font casks
 cask "font-menlo-for-powerline"
-cask "fira-font-code"
+cask "font-fira-code"
 
 # Mac App Store Apps
 mas "Bear", id: 1091189122
