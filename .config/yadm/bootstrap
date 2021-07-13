@@ -30,9 +30,10 @@ git config --global pull.rebase false
 git config --global init.defaultbranch main
 
 echo "Updating the yadm repo origin URL"
-yadm remote set-url origin "git@github.com:lirossarvet/dotfiles.git"
+yadm remote set-url origin "https://github.com/lirossarvet/dotfiles.git"
 
 # install omz
 if [ ! -d "$HOME/.oh-my-zsh" ]; then
+  echo "Installing oh-my-zsh"
   sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 fi
