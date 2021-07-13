@@ -8,7 +8,7 @@ tap "cask-fonts"
 # Command-line tools
 brew "asdf"
 brew "asdfler"
-breq "jq"
+brew "jq"
 brew "mas"
 brew "postgresql"
 brew "yadm"
