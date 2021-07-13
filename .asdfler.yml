@@ -3,7 +3,7 @@ plugins:
     default_version: 1.0.0
   - name: elixir
     default_version: 1.12.2
-  - name: erlang:
+  - name: erlang
     default_verison: 24.0.3
   - name: golang
     default_version: 1.16.5
