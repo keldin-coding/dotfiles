@@ -1,10 +1,10 @@
 plugins:
   - name: crystal
-    default_version: 1.0.0
+    default_version: 1.2.1
   - name: elixir
     default_version: 1.12.2
   - name: erlang
-    default_verison: 24.0.3
+    default_version: 24.0.3
   - name: golang
     default_version: 1.16.5
   - name: ruby

@@ -8,6 +8,7 @@ tap "homebrew/cask-fonts"
 # Command-line tools
 brew "asdf"
 brew "asdfler"
+brew "jsonnet"
 brew "jq"
 brew "mas"
 brew "postgresql"
@@ -27,16 +28,16 @@ cask "anylist"
 cask "discord"
 # I do not want to deal with fixing the encryption keys and getting the backups
 # and whatnot to work. It might be painless but...meh. We test this on a new machine.
-# cask "element"
+cask "element"
 cask "insomnia"
 # Want to ensure I get the settings I need
-# cask "iterm2"
+cask "iterm2"
 cask "mudlet"
 cask "private-internet-access"
 cask "raspberry-pi-imager"
 cask "signal"
 # I need to consolidate my Slack accounts before I do this
-# cask "slack"
+cask "slack"
 cask "sublime-merge"
 cask "sublime-text"
 cask "the-unarchiver"
@@ -47,4 +48,5 @@ cask "font-menlo-for-powerline"
 cask "font-fira-code"
 
 # Mac App Store Apps
+# TBH, may stop installing this. We'll see.
 mas "Bear", id: 1091189122

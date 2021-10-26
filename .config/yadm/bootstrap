@@ -23,8 +23,8 @@ if [ "$system_type" = "Darwin" ]; then
 fi
 
 git config --global credential.helper 'osxkeychain'
-# git config --global user.name 'Jonathon Anderson'
-# git config --global user.email 'coding@jpanderson.dev'
+git config --global user.name 'Jonathon Anderson'
+git config --global user.email 'coding@jpanderson.dev'
 git config --global core.excludesfile ~/.gitignore_global
 git config --global pull.rebase false
 git config --global init.defaultbranch main
@@ -32,13 +32,14 @@ git config --global init.defaultbranch main
 echo "Updating the yadm repo origin URL"
 yadm remote set-url origin "https://github.com/lirossarvet/dotfiles.git"
 
-# install omz
-if [ ! -d "$HOME/.oh-my-zsh" ]; then
-  echo "Installing oh-my-zsh"
-  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-fi
-
 if [ -f "$HOME/.asdfler.yml" ]; then
   echo "Setting up asdf plugins"
   asdfler install -p "$HOME/.asdfler.yml"
+fi
+
+# install omz
+# Since this calls into `sh -c`, save it for last
+if [ ! -d "$HOME/.oh-my-zsh" ]; then
+  echo "Installing oh-my-zsh"
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 fi
