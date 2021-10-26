@@ -32,6 +32,13 @@ git config --global init.defaultbranch main
 echo "Updating the yadm repo origin URL"
 yadm remote set-url origin "https://github.com/lirossarvet/dotfiles.git"
 
+echo "Copying SublimeText stuff over"
+pushd .sublime-text
+for filename in $(ls); do
+  cp filename "$HOME/Application Support/Sublime Text/Packages/User/$filename"
+done
+popd +0
+
 if [ -f "$HOME/.asdfler.yml" ]; then
   echo "Setting up asdf plugins"
   asdfler install -p "$HOME/.asdfler.yml"
@@ -39,6 +46,8 @@ fi
 
 # install omz
 # Since this calls into `sh -c`, save it for last
+# I could probably figure out how to make it not shell out and just run, but...
+# this is fine.
 if [ ! -d "$HOME/.oh-my-zsh" ]; then
   echo "Installing oh-my-zsh"
   sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"

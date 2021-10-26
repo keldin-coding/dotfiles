@@ -1,7 +1,7 @@
 ZSH_DISABLE_COMPFIX="true"
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/jonathonanderson/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # STATUS CODE PRINTING
 
@@ -22,7 +22,7 @@ RPROMPT='$(check_last_exit_code)'
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="agnoster"
-DEFAULT_USER=jonathonanderson
+DEFAULT_USER=jpanderson
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -72,7 +72,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export GOPATH=/Users/jonathonanderson/.asdf/shims/go
+export GOPATH="$HOME/.asdf/shims/go"
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # You may need to manually set your language environment
