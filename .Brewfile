@@ -18,7 +18,6 @@ brew "zsh"
 # brew "zsh-syntax-highlighting"
 
 # Mac apps with casks
-cask "1password"
 cask "1password-cli" # No idea why this one is a cask instead of a formula
 cask "alfred"
 cask "anylist"
@@ -33,7 +32,6 @@ cask "insomnia"
 # Want to ensure I get the settings I need
 cask "iterm2"
 cask "mudlet"
-cask "private-internet-access"
 cask "raspberry-pi-imager"
 cask "signal"
 # I need to consolidate my Slack accounts before I do this
