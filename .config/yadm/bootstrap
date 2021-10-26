@@ -35,7 +35,7 @@ yadm remote set-url origin "https://github.com/lirossarvet/dotfiles.git"
 echo "Copying SublimeText stuff over"
 pushd .sublime-text
 for filename in $(ls); do
-  cp $filename "$HOME/Application Support/Sublime Text/Packages/User/$filename"
+  cp "$filename" "$HOME/Library/Application Support/Sublime Text/Packages/User/"
 done
 popd +0
 
