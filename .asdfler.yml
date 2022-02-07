@@ -6,7 +6,7 @@ plugins:
       - 1.2.1
       - 1.2.0
   - name: elixir
-    default_version: 1.13.2
+    default_version: 1.13.2-otp-24
   - name: erlang
     default_version: 24.2.1
   - name: golang
