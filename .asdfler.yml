@@ -10,6 +10,8 @@ plugins:
   - name: erlang
     default_version: 24.2.1
   - name: golang
-    default_version: 1.16.5
+    default_version: 1.17.7
+    versions:
+      - 1.16.5
   - name: ruby
     default_version: 3.0.2
