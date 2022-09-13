@@ -19,11 +19,10 @@ brew "zsh"
 
 # Mac apps with casks
 cask "1password-cli" # No idea why this one is a cask instead of a formula
-cask "alfred"
 cask "anylist"
 # Calibre is annoying because you have to download v3, get the plugin to work,
 # then go back to v5
-# cask "calibre"
+cask "calibre"
 cask "discord"
 # I do not want to deal with fixing the encryption keys and getting the backups
 # and whatnot to work. It might be painless but...meh. We test this on a new machine.
@@ -33,6 +32,7 @@ cask "insomnia"
 cask "iterm2"
 cask "mudlet"
 cask "raspberry-pi-imager"
+cask "raycast"
 cask "signal"
 # I need to consolidate my Slack accounts before I do this
 cask "slack"
@@ -44,7 +44,3 @@ cask "zoom"
 # Font casks
 cask "font-menlo-for-powerline"
 cask "font-fira-code"
-
-# Mac App Store Apps
-# TBH, may stop installing this. We'll see.
-mas "Bear", id: 1091189122
