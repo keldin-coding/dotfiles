@@ -1,30 +1,15 @@
 plugins:
   - name: crystal
     default_version: "1.5.0"
-    versions:
-      - "1.3.2"
-      - "1.2.1"
-      - "1.2.0"
   - name: elixir
-    default_version: 1.14.0-otp-25
-    versions:
-      - "1.13.4-otp-25"
-      - "1.12.3"
-      - 1.12.3-otp-24
+    default_version: 1.15.4-otp-26
   - name: erlang
-    default_version: "25.0.3"
-    versions:
-      - "24.3.4"
+    default_version: "26.0.2"
   - name: golang
-    default_version: "1.18.4"
-    versions:
-      - "1.17.12"
+    default_version: "1.20.2"
   - name: ruby
-    default_version: "3.0.2"
-    versions:
-      - "3.0.2"
-      - "2.7.6"
+    default_version: "3.2.2"
   - name: rust
-    default_version: "1.62.1"
+    default_version: "1.71.0"
   - name: terraform
-    default_version: "1.2.5"
+    default_version: "1.5.3"
